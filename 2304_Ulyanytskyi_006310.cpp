@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <Windows.h>
 
 using namespace std;
 
@@ -40,6 +41,8 @@ public:
 };
 
 int main() {
+    SetConsoleOutputCP(1251);
+
     Tree_one tree_1;
     Tree_two tree_2;
     Tree_three tree_3;
